@@ -1,0 +1,147 @@
+.section-bg {
+    background-color: #f6f9fc;
+    padding: 72px 0;
+   
+}
+.col-lg-12 {
+}
+.header-content {
+}
+.header-content h5 {
+	font-size: 19px;
+	color: #698af0;
+	padding-bottom: 5px;
+}
+
+.header-content h3 {
+	font-size: 41px;
+	font-weight: 600;
+}
+
+.header-content p {
+	font-size: 18px;
+	color: #a19cad;
+	width: 532px;
+	margin: auto;
+	position: relative;
+	margin-top: 40px;
+}
+.header-content p::after {
+	content: "";
+	position: absolute;
+	top: -20px;
+	left: 230px;
+	height: 2px;
+	width: 56px;
+ 
+	background: #3763eb;
+}
+
+/* pricing-tble-section */
+
+
+.pricing-table-content {
+	background: #ffffff;
+	padding: 85px;
+	border-radius: 5px;
+}
+.dag{
+	position: relative;
+}
+.dag::before {
+	height: 2px;
+	width: 197px;
+	left: 26%;
+	background: radial-gradient(ellipse at center ,#d1dbe7 0, rgba(255, 255, 255, 0) 75%);
+	content: "";
+	position: absolute;
+	top: 18px;
+	margin-left: -36%;
+	display: block;
+}
+.pricing-table-content strong {
+	font-size: 19px;
+	font-weight: 600;
+	color: black;
+	display: block;
+	margin-bottom: 26px;
+}
+.pricing-table-content p {
+	color: #808080;
+	line-height: 39px;
+	padding-top: 26px;
+}
+.pricing-table-content h2 {
+	font-size: 32px;
+	font-weight: 600;
+}
+
+.pricing-table-content a {
+	border-radius: 31px;
+	background: #3763eb;
+	padding: 10px 34px;
+}
+
+
+/* slider-section  */
+.slider-section {
+	background: url(./free-bg.jpg) no-repeat center center;
+	background-size: cover;
+	height: 83vh;
+	position: relative;
+	z-index: 1;
+}
+.slider-text::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background:  rgba(20, 42, 167, 0.767);
+	z-index: -1;
+}
+
+.slider-text{
+	height: 83vh;
+	width: 1000px;
+	 
+}
+
+/* .slider-contant h6 {
+	padding-top: 223px;
+} */
+.slider-contant h4 {
+    font-weight: 600;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+.slider-contant p{
+	position: relative;
+}
+.slider-contant p:before {
+    content: "";
+    position: absolute;
+    top: -23px;
+    left: 48%;
+    width: 60px;
+    height: 2px;
+    background: #ddd;
+}
+
+.slider-contant a {
+	border-radius: 30px;
+	padding: 8px 30px;
+	font-weight: 500;
+	margin-top: 10px;
+	
+	transition: .5s;
+	border: none;
+}
+.slider-contant a:hover{
+	background-color: #000;
+	color: #fff !important;
+	border: none;
+}
+
+
